@@ -59,4 +59,14 @@ Learning happens by:
 - No mentors
 - No hand-holding
 
-The system teaches. People a
+The system teaches. People adapt or leave.
+
+---
+
+## Repository Structure
+
+- `SUBMISSION.md` → project submission rules
+- `projects.json` → canonical list of accepted projects
+- `.github/ISSUE_TEMPLATE` → enforced submission format
+
+If you want to contribute, start with **SUBMISSION.md**.
