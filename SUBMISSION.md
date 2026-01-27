@@ -1,8 +1,9 @@
-# Broken Project Submission Rules
+# Project Submission Rules
 
-This document defines what is allowed into GrindMal.
+This repo accepts **any project that contributors can meaningfully work on**, including:
 
-If your project does not meet **all** requirements, it will be rejected without discussion.
+- Broken projects with a bug or reproducible issue
+- Open-source projects seeking collaboration on features or improvements
 
 ---
 
@@ -10,80 +11,36 @@ If your project does not meet **all** requirements, it will be rejected without 
 
 Your project MUST:
 
-- Be runnable locally
-- Use a public GitHub repository
-- Contain exactly **one primary bug**
-- Fail in a reproducible way
-- Describe expected vs actual behavior
-- Be solvable without external help
-- Not require paid APIs, tokens, or secrets
+- Be hosted on a **public GitHub repository**
+- Contain a **clear problem or goal**
+- Include **steps to reproduce the issue or contribution scope**
+- Provide **expected behavior / outcome**
+- Be **solvable or contributable** by others without direct hand-holding
 
 ---
 
-## Bug Scope (Important)
+## Recommended Scope
 
-Allowed:
-
-- logic errors
-- incorrect conditionals
-- edge-case failures
-- missing validation
-- wrong return values
-- incorrect calculations
-
-Not allowed:
-
-- architectural redesigns
-- performance tuning
-- feature additions
-- “clean this up”
-- vague or subjective issues
-
-One repo = one problem.
+- Small modules or tasks inside larger projects
+- Clearly defined bugs or features
+- Easy-to-understand structure for first-time contributors
 
 ---
 
-## Difficulty Guidelines
+## Not Allowed
 
-**easy**
-
-- beginner-friendly
-- single-file or small scope
-- fixable in < 30 minutes
-
-**medium**
-
-- multi-file
-- requires tracing logic
-
-**hard**
-
-- deeper system understanding
-- still bug-fixable, not redesign
-
-If you mislabel difficulty, it will be corrected or rejected.
+- Vague, undefined, or impossible tasks
+- Projects requiring paid APIs or secrets
+- Projects that are entirely tutorial-based
+- Personal assignments without meaningful contribution potential
 
 ---
 
-## Required Files in Your Repo
+## Files in Your Repo
 
-Your broken project repository MUST include:
+Each submitted project should ideally include:
 
-- `README.md`
-- `BUG.md`
+- `README.md` → project overview, setup instructions
+- `BUG.md` or `TASK.md` → clear description of problem, feature, or contribution goal
 
-`BUG.md` must clearly explain:
-
-- how to reproduce the bug
-- expected behavior
-- actual behavior
-
-Do NOT include the solution or hints.
-
----
-
-## Enforcement
-
-- Incomplete submissions are closed
-- Arguments are ignored
-- Complaints are ignor
+> Do NOT include full solutions or spoilers. The community will fork, contribute, and review.

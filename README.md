@@ -1,72 +1,57 @@
-# GrindMal — Broken Projects Registry
+# GrindMal — Projects Registry
 
-This repository is the **index** of all broken projects used in GrindMal cycles.
+Welcome to **GrindMal Projects**!
 
-This repo does **not** contain code.
-It contains:
+This repository is the **central index** of all projects used in GrindMal cycles.  
+Projects can be:
 
-- rules
-- submissions
-- references
-
-All actual broken projects live in **separate repositories** under the `grindmal/` organization.
+- **Broken projects** — with bugs or reproducible issues
+- **Collaboration projects** — open-source features, improvements, or modules seeking contributors
 
 ---
 
-## What is a “Broken Project”?
+## Purpose
 
-A broken project is a **real, runnable project** with:
+GrindMal is a **community-driven learning platform**. Projects here are designed for:
 
-- a **specific, intentional bug**
-- a **clear expected behavior**
-- a **verifiable failure**
+- Learning by contributing
+- Collaborating in real-world code
+- Practicing review, fork, PR, and merge cycles
 
-It is NOT:
-
-- a tutorial
-- a refactor exercise
-- a feature request
-- an architecture redesign
-
-You fix things by submitting **code**, not explanations.
+Everything is tracked, versioned, and transparent.  
+Your project becomes part of the system once submitted and approved.
 
 ---
 
 ## How GrindMal Works (Loop)
 
-1. A broken project is submitted via Issue
-2. The project repo is reviewed for validity
-3. Contributors fork the broken repo
-4. Fixes are submitted as PRs
-5. PRs are reviewed using GrindMal rules
-6. Accepted fixes are merged
-7. The project is marked as solved
+1. Submit a project using the Issue template
+2. Project is reviewed for clarity and scope
+3. Contributors fork the project
+4. Fixes / contributions are submitted as PRs
+5. PRs are reviewed using **GrindMal Review Guidelines**
+6. Accepted contributions are merged
+7. Project is marked as solved, complete, or ongoing
 
-Learning happens by:
-
-- reading diffs
-- reviewing PRs
-- seeing real mistakes corrected
-
----
-
-## Rules (Read Carefully)
-
-- Help = Pull Request
-- Opinions without code are ignored
-- Disputes are resolved via alternative PRs, not comments
-- No private help channels
-- No mentors
-- No hand-holding
-
-The system teaches. People adapt or leave.
+Learning happens by **doing and reviewing**, not hand-holding.
 
 ---
 
 ## Repository Structure
 
-- `SUBMISSION.md` → project submission rules
-- `projects.json` → canonical list of accepted projects
-- `.github/ISSUE_TEMPLATE` → enforced submission format
+- `SUBMISSION.md` → rules for submitting projects
+- `projects.json` → official registry of accepted projects
+- `.github/ISSUE_TEMPLATE` → enforces structured submissions
 
-If you want to contribute, start with **SUBMISSION.md**.
+---
+
+## Rules (Read Carefully)
+
+- Help = Pull Request / Contribution
+- Opinions without code are ignored
+- Disputes resolved via alternative PRs, not comments
+- No private help channels, no mentors
+- No tutorials or hand-holding
+
+This system **filters self-directed grinders**.  
+If you are here to “feel comfortable,” GrindMal is not for you.

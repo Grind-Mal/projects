@@ -1,47 +1,57 @@
-name: Submit Your Struggling Project
-description: Share a project you are stuck on so the community can help
-title: "[Struggling Project] <project-name>"
-labels: ["broken-project"]
+name: Submit Your Project
+description: Share a project you are stuck on or want collaborators for
+title: "[Project] <project-name>"
+labels: ["project"]
 body:
   - type: input
     id: repo
     attributes:
       label: Repository URL
-      description: Public GitHub repo where your project lives
+      description: Public GitHub repository for the project
       placeholder: https://github.com/username/project
+    validations:
+      required: true
+
+  - type: dropdown
+    id: type
+    attributes:
+      label: Project Type
+      options:
+        - broken
+        - collaboration
     validations:
       required: true
 
   - type: input
     id: problem
     attributes:
-      label: What are you stuck on?
-      description: Describe the part you can't fix, error messages, or unexpected behavior
-      placeholder: "I keep getting a crash when parsing input…"
+      label: What are you stuck on / what needs contribution?
+      description: Explain the bug, feature, or task clearly
+      placeholder: "Parsing fails on certain inputs..."
     validations:
       required: true
 
   - type: textarea
     id: reproduce
     attributes:
-      label: Steps to Reproduce
-      description: Exact steps someone else can follow to see the problem
+      label: Steps to Reproduce / Context
+      description: Instructions to reproduce bug or understand feature scope
     validations:
       required: true
 
   - type: textarea
     id: expected
     attributes:
-      label: Expected Behavior
-      description: What do you want the code to do?
+      label: Expected Behavior / Goal
+      description: What should happen or what is the contribution goal
     validations:
       required: true
 
   - type: textarea
     id: actual
     attributes:
-      label: Actual Behavior
-      description: What is happening instead?
+      label: Actual Behavior / Current State
+      description: What currently happens or the current state of the project
     validations:
       required: true
 
