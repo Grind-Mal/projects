@@ -55,5 +55,5 @@ jobs:
           title: "Sync projects.json"
           body: "Auto-generated update from issue activity"
           branch: create-pull-request/patch
-          add: "projects.json"
+          add-paths: "projects.json"
           delete-branch: true
