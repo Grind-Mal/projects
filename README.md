@@ -55,3 +55,12 @@ Learning happens by **doing and reviewing**, not hand-holding.
 
 This system **filters self-directed grinders**.  
 If you are here to “feel comfortable,” GrindMal is not for you.
+
+## How to Contribute
+
+1. Fork the project you want to help with.
+2. Make your changes in a branch, keep commits small and meaningful.
+3. Submit a Pull Request referencing the issue/project.
+4. Write a short explanation for your change in the PR description.
+5. Expect feedback via the **GrindMal Review Guidelines** — reviews are artifacts, not opinions.
+6. Repeat until your PR is approved and merged.
