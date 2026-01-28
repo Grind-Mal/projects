@@ -54,3 +54,6 @@ jobs:
           commit-message: "sync projects.json"
           title: "Sync projects.json"
           body: "Auto-generated update from issue activity"
+          branch: create-pull-request/patch
+          add: "projects.json"
+          delete-branch: true
