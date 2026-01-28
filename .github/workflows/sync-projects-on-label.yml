@@ -24,9 +24,15 @@ jobs:
             const labels = issue.labels.map(l => l.name);
 
             const file = "projects.json";
-            const data = fs.existsSync(file)
+            let data = fs.existsSync(file)
               ? JSON.parse(fs.readFileSync(file))
               : [];
+
+            // Ensure data is an array
+            if (!Array.isArray(data)) {
+              console.log("Warning: projects.json does not contain an array, initializing as empty array");
+              data = [];
+            }
 
             const index = data.findIndex(p => p.id === issue.number);
 
