@@ -1,1 +1,12 @@
-[]
+[
+  {
+    "id": 1,
+    "title": "Organization Automation for GrindMal",
+    "repo": "https://github.com/Grind-Mal",
+    "status": "status:in-progress",
+    "type": "",
+    "submitted_by": "thetmyoekhaing",
+    "issue_url": "https://github.com/Grind-Mal/projects/issues/1",
+    "updated_at": "2026-01-28T03:58:55.237Z"
+  }
+]
