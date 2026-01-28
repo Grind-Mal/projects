@@ -24,9 +24,12 @@ jobs:
             const body = context.payload.issue.body || "";
 
             const required = [
-              "Project Description",
+              "Steps to Reproduce / Context",
               "Repository URL",
-              "What are you stuck on"
+              "What are you stuck on",
+              "Expected Behavior / Goal",
+              "Actual Behavior / Current State",
+              "Difficulty",
             ];
 
             const missing = required.filter(r => !body.includes(r));
