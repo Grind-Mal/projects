@@ -4,6 +4,10 @@ on:
   issues:
     types: [labeled, unlabeled, reopened, closed]
 
+permissions:
+  contents: write
+  pull-requests: write
+
 jobs:
   sync:
     runs-on: ubuntu-latest
