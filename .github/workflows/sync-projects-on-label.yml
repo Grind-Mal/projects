@@ -23,8 +23,6 @@ jobs:
             const issue = context.payload.issue;
             const labels = issue.labels.map(l => l.name);
 
-            if (!labels.some(l => l.startsWith("status:"))) return;
-
             const file = "projects.json";
             const data = fs.existsSync(file)
               ? JSON.parse(fs.readFileSync(file))
@@ -36,8 +34,8 @@ jobs:
               id: issue.number,
               title: issue.title,
               repo: issue.body.match(/https?:\/\/github\.com\/\S+/)?.[0] || "",
-              status: labels.find(l => l.startsWith("status:")),
-              type: labels.find(l => l.startsWith("type:")),
+              status: labels.find(l => l.startsWith("status:")) || "",
+              type: labels.find(l => l.startsWith("type:")) || "",
               submitted_by: issue.user.login,
               issue_url: issue.html_url,
               updated_at: new Date().toISOString()
