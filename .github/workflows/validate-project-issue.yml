@@ -2,7 +2,7 @@ name: Validate Project Issue
 
 on:
   issues:
-    types: [opened]
+    types: [opened, reopened]
 
 permissions:
   issues: write

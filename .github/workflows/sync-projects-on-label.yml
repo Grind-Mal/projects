@@ -40,7 +40,7 @@ jobs:
               id: issue.number,
               title: issue.title,
               repo: issue.body.match(/https?:\/\/github\.com\/\S+/)?.[0] || "",
-              status: labels.find(l => l.startsWith("status:")) || "",
+              status: labels.find(l => l.startsWith("status:")) || issue.state,
               type: labels.find(l => l.startsWith("type:")) || "",
               submitted_by: issue.user.login,
               issue_url: issue.html_url,
