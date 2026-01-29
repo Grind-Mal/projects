@@ -12,11 +12,11 @@
   {
     "id": 6,
     "title": "GrindMal",
-    "repo": "",
-    "status": "status:open",
+    "repo": "https://github.com/Grind-Mal/grindmal-web",
+    "status": "status:done",
     "type": "",
     "submitted_by": "thetmyoekhaing",
     "issue_url": "https://github.com/Grind-Mal/projects/issues/6",
-    "updated_at": "2026-01-28T07:08:53.949Z"
+    "updated_at": "2026-01-29T10:08:53.312Z"
   }
 ]
